@@ -28,42 +28,27 @@ Run the game.
 python snake_game.py
 
 ## How to Play:
-Use the arrow keys (↑, ↓, ←, →) to move the snake.
-
-Consume the red food that randomly appears.
-
-Every food you consume will increase your snake's length.
-
-The game speeds up as you earn more points.
-
-Avoid running into yourself - this will end the game.
+- Use the arrow keys (↑, ↓, ←, →) to move the snake.
+- Consume the red food that randomly appears.
+- Every food you consume will increase your snake's length.
+- The game speeds up as you earn more points.
+- Avoid running into yourself - this will end the game.
 
 ## Game Structure:
-- Classes:
+### Classes:
 
-Snake: Represents the snake entity. Key methods include:
-
-move(): Propels the snake based on its direction.
-
-grow_snake(): Increases the snake's length.
-
-change_direction(): Alters the snake's movement direction based on user input.
-
-draw(): Renders the snake on the game screen.
-
-Food: Represents the food entity. Key methods:
-
-randomize_position(): Picks a new random position for the food item.
-
-draw(): Displays the food on the game screen.
-
-Game: The main game orchestrator. Key methods include:
-
-check_collision(): Checks if the snake has eaten the food or collided with itself.
-
-level_up(): Increases game difficulty.
-
-run(): Central game loop, managing all game mechanics.
+- Snake: Represents the snake entity. Key methods include:
+- move(): Propels the snake based on its direction.
+- grow_snake(): Increases the snake's length.
+- change_direction(): Alters the snake's movement direction based on user input.
+- draw(): Renders the snake on the game screen.
+- Food: Represents the food entity. Key methods:
+- randomize_position(): Picks a new random position for the food item.
+- draw(): Displays the food on the game screen.
+ -Game: The main game orchestrator. Key methods include:
+- check_collision(): Checks if the snake has eaten the food or collided with itself.
+- level_up(): Increases game difficulty.
+- run(): Central game loop, managing all game mechanics.
 
 ## Contribute:
 Feel free to fork, improve, make pull requests or fill issues. I'll appreciate any help and insight to make the game better and more fun!
