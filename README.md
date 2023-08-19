@@ -1,6 +1,4 @@
-# Snake_Game_Pygame_Python
-
-# 🐍 Python Snake Game
+# 🐍 Python Snake Game Using Pygame
 
 Created by Mosco on Sat Aug 19, 2023.
 
