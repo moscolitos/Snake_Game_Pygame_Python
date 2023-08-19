@@ -5,11 +5,11 @@ Created by Mosco on Sat Aug 19, 2023.
 An enthralling rendition of the classic Snake game using Python and Pygame. Navigate your snake through the grid, grow in length by consuming food, and level up while avoiding collisions with yourself!
 
 ## Features:
-🟩 Classic snake gameplay with modern twists.
-🌟 Points system that rewards you for every food consumed.
-🚀 Dynamic leveling system - the game speeds up as you level up.
-🎮 Smooth arrow key controls for snake movement.
-🌈 Crisp graphics with distinct colors for better visibility.
+- 🟩 Classic snake gameplay with modern twists.
+- 🌟 Points system that rewards you for every food consumed.
+- 🚀 Dynamic leveling system - the game speeds up as you level up.
+- 🎮 Smooth arrow key controls for snake movement.
+- 🌈 Crisp graphics with distinct colors for better visibility.
 
 ## Installation:
 Clone the repository.
